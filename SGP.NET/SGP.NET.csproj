@@ -20,7 +20,7 @@
     <FileVersion>1.3.2.0</FileVersion>
     <LangVersion>10</LangVersion>
     <AssemblyOriginatorKeyFile>parzivail nuget.snk</AssemblyOriginatorKeyFile>
-    <TargetFrameworks>net6.0;netstandard1.4;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>netcoreapp3.1;net6.0;netstandard1.4;netstandard2.0</TargetFrameworks>
     <PackageVersion>1.3.2</PackageVersion>
   </PropertyGroup>
 </Project>

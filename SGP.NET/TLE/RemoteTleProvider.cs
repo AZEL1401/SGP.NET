@@ -103,7 +103,7 @@ namespace SGPdotNET.TLE
             var elementSets = Tle.ParseElements(file, true);
 
             foreach (var elementSet in elementSets)
-                tles.Add((int)elementSet.NoradNumber, elementSet);
+							tles.TryAdd((int)elementSet.NoradNumber, elementSet);
         }
 
         /// <summary>
